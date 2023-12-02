@@ -2,7 +2,7 @@ devices:
     R1:
         type: 'router'
         os: 'iosxe'
-        platform: x86
+        platform: Linux
         alias: 'router1'
         credentials:
             default:
@@ -16,7 +16,7 @@ devices:
     S1:
         type: 'switch'
         os: 'iosxe'
-        platform: x86
+        platform: Linux
         alias: 'switch1'
         credentials:
             default:
