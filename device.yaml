@@ -1,0 +1,28 @@
+devices:
+    R1:
+        type: 'router'
+        os: 'iosxe'
+        platform: x86
+        alias: 'router1'
+        credentials:
+            default:
+                username: admin
+                password: cisco
+        connections:
+            cli:
+                protocol: ssh
+                ip: "192.168.31.49"
+
+    S1:
+        type: 'switch'
+        os: 'iosxe'
+        platform: x86
+        alias: 'switch1'
+        credentials:
+            default:
+                username: admin
+                password: cisco
+        connections:
+            cli:
+                protocol: ssh
+                ip: "192.168.31.99"
